@@ -42,4 +42,11 @@ Link to the repo : [VoTT](https://github.com/Microsoft/VoTT)
 
    ![image-20220512133617116](Images\image-20220512133617116.png)
 
-6. 
+6. Select path of your folder. The folder is required to only contain images that you want to annotate, no extra files.
+
+   ![image-20220512134134171](Images\image-20220512134134171.png)
+
+7. Press "Save Connection" and a prompt appears, confirming the save.
+
+   ![image-20220512134229020](Images\image-20220512134229020.png) 
+
