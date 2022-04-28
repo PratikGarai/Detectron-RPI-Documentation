@@ -1,0 +1,54 @@
+{
+    "name": "MonkeyDetection",
+    "securityToken": "MonkeyDetection Token",
+    "sourceConnection": {
+        "name": "MonkeyDataset-Input",
+        "description": "The input directory of monkey dataset",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDBlMDFiNjhkNzUxNTc4MzRlNzliNDU4ZTllNmQxNDJjNGE5NGVhMzU0ZjZjMDU1OWY5N2M3NTgyZGJjNTQ1MjUwZTBjY2JmNWYzMzA0MjM4YWY4MDY5YmM1ODg5MzljZDU0NDk3ZjJhOTdkMDkyNmE3ZGYyMTdmM2I5ZjI1ZWVhMDAzN2RkNTU2YzczNTI4MmQyYzIxZTdhZjU5NDQxYSIsIml2IjoiNDNmZTlkMDUyZDUwYmE3ZDMyNWY2Yjg3NDRlMGVkMmE0ZGYyZjVmZDUzMjZhNTg0In0="
+        },
+        "id": "64JlkI7ts"
+    },
+    "targetConnection": {
+        "name": "MonketDataset-Out",
+        "description": "The output of monkey dataset",
+        "providerType": "localFileSystemProxy",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYTIzNzVjNjliMWYwYWIzNzdiZTBmNTc1M2Q1N2U2YWQyNTJjNWQ2ZDU3NDdmNjA4OTFlMzY4NzFhYTM0OTk5NmFhODhlZjViNzViNTE1OTQ1NWIxOGRiNThhOGM0ZTY2M2I2NGVlNmNjMjMyYjIwMzkyMDNjMDFjYThhZjIwNTUiLCJpdiI6ImE1OGM0MDNmYzMxYTBkMTEyYzUwNTBkMzJlYzJlYzM0NTQ2NGFjODczMmQ5MDEyYiJ9"
+        },
+        "id": "1LgBnEldH"
+    },
+    "videoSettings": {
+        "frameExtractionRate": 15
+    },
+    "tags": [],
+    "id": "wwRvzluaf",
+    "activeLearningSettings": {
+        "autoDetect": false,
+        "predictTag": true,
+        "modelPathType": "coco"
+    },
+    "exportFormat": {
+        "providerType": "vottJson",
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDQ0YTgzMWM5YTgyNWViOTMyYzk1ODkwNWU3ZDU4MWI0YTU4ZTIxMTA4MDM0ZTQxNmM2ODQ1ODI4YzcxYWYwMzk4YTJmN2VmZDVlMGVhZjk0NTM3OTVhY2EwN2E3YTJjIiwiaXYiOiI1ZTk2ZmIyYjRjYzI4ZDVhYWU4MDZmMzNhNzcyM2EzMWMwMzQ2NjVkZDUwYjhiOWIifQ=="
+        }
+    },
+    "version": "2.2.0",
+    "lastVisitedAssetId": "da59946e6cfdc1224a11246146f6d3ef",
+    "assets": {
+        "da59946e6cfdc1224a11246146f6d3ef": {
+            "format": "jpg",
+            "id": "da59946e6cfdc1224a11246146f6d3ef",
+            "name": "23qweasrdxfgcf.jpg",
+            "path": "file:E:/Repos/jcomps/iot/docs/dataset/rhesusmacaque/23qweasrdxfgcf.jpg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 1,
+            "type": 1
+        }
+    }
+}
