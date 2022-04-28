@@ -6,7 +6,7 @@
         "description": "The input directory of monkey dataset",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDBlMDFiNjhkNzUxNTc4MzRlNzliNDU4ZTllNmQxNDJjNGE5NGVhMzU0ZjZjMDU1OWY5N2M3NTgyZGJjNTQ1MjUwZTBjY2JmNWYzMzA0MjM4YWY4MDY5YmM1ODg5MzljZDU0NDk3ZjJhOTdkMDkyNmE3ZGYyMTdmM2I5ZjI1ZWVhMDAzN2RkNTU2YzczNTI4MmQyYzIxZTdhZjU5NDQxYSIsIml2IjoiNDNmZTlkMDUyZDUwYmE3ZDMyNWY2Yjg3NDRlMGVkMmE0ZGYyZjVmZDUzMjZhNTg0In0="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZjJhMjY5ZDRmMTlhZDMyNzA4OTUyNjE3NWVkOGVlZDZhYWU2M2Y5YjlhNzg5ZDNlMDYyN2ZkYzAxMWQ0YTExYTIxMDIzN2ZmNmM0YzJlMGY3OGZmMTZlMjc2MGY1NTNkZThmMjdjNDQzNmI0ZDZmYjU0ZjZiMTlmNzJkMGVkZTNmZGE1OWIyZjZkYTU5ODViMzMwMmI5NTViN2FlNDRhYyIsIml2IjoiYjViMzJiNDE1MTNjOGUzMzk0MDdiYWQyNTQyOGY1MGRiMzQwNTRjYWI3NWE3ZDUyIn0="
         },
         "id": "64JlkI7ts"
     },
@@ -15,14 +15,19 @@
         "description": "The output of monkey dataset",
         "providerType": "localFileSystemProxy",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiYTIzNzVjNjliMWYwYWIzNzdiZTBmNTc1M2Q1N2U2YWQyNTJjNWQ2ZDU3NDdmNjA4OTFlMzY4NzFhYTM0OTk5NmFhODhlZjViNzViNTE1OTQ1NWIxOGRiNThhOGM0ZTY2M2I2NGVlNmNjMjMyYjIwMzkyMDNjMDFjYThhZjIwNTUiLCJpdiI6ImE1OGM0MDNmYzMxYTBkMTEyYzUwNTBkMzJlYzJlYzM0NTQ2NGFjODczMmQ5MDEyYiJ9"
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNTdlNjNlZTU2ZmM5MTU0NmNhNjk5ODBlNzYxNDc3ODNiMDhhNmIzN2E4OWRhYTQ0NzdkZTQxNzM3MDZmMTVmM2FiNDc5ZTkyODM1M2ZhMDg5YmVhZWNhMTYwMzQ5NGFmNDM5NTdjZWM4ODk1NTkzNzBkZmIxMjU5NTc5NmJlOTIiLCJpdiI6IjUwZGQ5ODI1YjdkMzg5N2Y2NGQ5MDljMmNlYzM3YzY1M2QzYmZmNTliYWY2YzliMiJ9"
         },
         "id": "1LgBnEldH"
     },
     "videoSettings": {
         "frameExtractionRate": 15
     },
-    "tags": [],
+    "tags": [
+        {
+            "name": "monkey",
+            "color": "#5db300"
+        }
+    ],
     "id": "wwRvzluaf",
     "activeLearningSettings": {
         "autoDetect": false,
@@ -30,9 +35,9 @@
         "modelPathType": "coco"
     },
     "exportFormat": {
-        "providerType": "vottJson",
+        "providerType": "pascalVOC",
         "providerOptions": {
-            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiZDQ0YTgzMWM5YTgyNWViOTMyYzk1ODkwNWU3ZDU4MWI0YTU4ZTIxMTA4MDM0ZTQxNmM2ODQ1ODI4YzcxYWYwMzk4YTJmN2VmZDVlMGVhZjk0NTM3OTVhY2EwN2E3YTJjIiwiaXYiOiI1ZTk2ZmIyYjRjYzI4ZDVhYWU4MDZmMzNhNzcyM2EzMWMwMzQ2NjVkZDUwYjhiOWIifQ=="
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTE2NWU2YzI1OGUwMDYwNDFjYzk0MzY4MzNhNjc2N2NlYmU0Y2NkNzRmMjM0YTIxN2IxMGM3YWM5MmE0NWM2MGI1Y2RlMzk1NDE4ODZlZDA5YTAxYjFlN2M4NWYyNzJkNTcyM2EwZTQ1NmQ2NmIzMmRhNjgxMmM5ZjRkMjI2OWFiMGY1MWYxOTUwYWIxZGQ0ZDlkZjAwN2Q4YWFjMmI5NCIsIml2IjoiOTJmNjZlZTk1ZGE4MzM5Y2JmMWUzNGRlYzdkNjU2YjVjZDgwYTkxZWIyM2MwZjUyIn0="
         }
     },
     "version": "2.2.0",
@@ -43,6 +48,18 @@
             "id": "da59946e6cfdc1224a11246146f6d3ef",
             "name": "23qweasrdxfgcf.jpg",
             "path": "file:E:/Repos/jcomps/iot/docs/dataset/rhesusmacaque/23qweasrdxfgcf.jpg",
+            "size": {
+                "width": 275,
+                "height": 183
+            },
+            "state": 2,
+            "type": 1
+        },
+        "6c5c4a6cfd9fc31eca760f5b5b9c2e2a": {
+            "format": "jpg",
+            "id": "6c5c4a6cfd9fc31eca760f5b5b9c2e2a",
+            "name": "34etrdgf.jpg",
+            "path": "file:E:/Repos/jcomps/iot/docs/dataset/rhesusmacaque/34etrdgf.jpg",
             "size": {
                 "width": 275,
                 "height": 183
